@@ -1,0 +1,35 @@
+{
+  "name": "smartbrowsermcp",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "bin": {
+    "smartbrowser-mcp": "./dist/index.js"
+  },
+  "directories": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@modelcontextprotocol/server": "^2.0.0-alpha.2",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "playwright": "^1.59.1",
+    "sanitize-html": "^2.17.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.1",
+    "@types/sanitize-html": "^2.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
