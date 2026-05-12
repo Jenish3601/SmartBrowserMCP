@@ -1,6 +1,6 @@
 {
   "name": "smartbrowsermcp",
-  "version": "1.0.5",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "bin": {
     "smartbrowser-mcp": "./dist/index.js"
